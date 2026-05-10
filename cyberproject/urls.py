@@ -21,5 +21,4 @@ from app.views import login, profile
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', login),
-    path('profile/<int:user_id>/', profile),
-]
+    path('profile/<int:user_id>/', profile),]
